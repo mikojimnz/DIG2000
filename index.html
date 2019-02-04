@@ -60,7 +60,9 @@ h1 {
 pre {
     display: block;
     font-family: monospace;
-    opacity: .6;
+    opacity: .4;
+    z-index: -500;
+    position: absolute;
 }
 #particles-js {
     z-index: -999;
@@ -68,11 +70,19 @@ pre {
     width: 100%;
     height: 100%;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #ccc;
+}
 </style>
 </head>
 <body>
     <div id="particles-js"></div>
-    <h1><span style="font-family: monospace;">&lt;h1&gt;</span> This is meta! <span style="font-family: monospace;">&lt;/h1&gt;</span></h1>
+    <a href="https://mikojimenez.com/about"><h1><span style="font-family: monospace;">&lt;h1&gt;</span>This is meta!><span style="font-family: monospace;">&lt;/h1&gt;</span></h1></a>
+    
 <div>
     <pre type="text/plain" style="white-space: pre-wrap;">
 &lt;!doctype html&gt;
