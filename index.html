@@ -62,9 +62,16 @@ pre {
     font-family: monospace;
     opacity: .6;
 }
+#particles-js {
+    z-index: -999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 </style>
 </head>
 <body>
+    <div id="particles-js"></div>
     <h1><span style="font-family: monospace;">&lt;h1&gt;</span> This is meta! <span style="font-family: monospace;">&lt;/h1&gt;</span></h1>
 <div>
     <pre type="text/plain" style="white-space: pre-wrap;">
@@ -136,5 +143,7 @@ h1 {
 &lt;/html&gt;
     </pre>
 </div>
+<script src="/particles.js"></script>
+<script src="/app.js"></script>
 </body>
 </html>
